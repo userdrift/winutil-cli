@@ -19,7 +19,7 @@ Winutil must be run in Admin mode because it performs system-wide tweaks. To ach
 
 ### Launch Command
 
-#### Stable Branch (Recommended)
+#### Stable Branch
 
 ```ps1
 irm "https://userdrift.github.io/win" | iex
