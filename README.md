@@ -1,6 +1,6 @@
 # Windows Utility
 
-This is a fork of winutil
+[winutil](https://github.com/ChrisTitusTech/winutil/) fork with the GUI removed, and this fork adds a `-Build` switch that allows the user to build a script that will run all selected tweaks.
 
 ![screen-install](./docs/assets/Title-Screen.png)
 
