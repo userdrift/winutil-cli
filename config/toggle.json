@@ -1,0 +1,116 @@
+{
+    "WPFToggleDarkMode": {
+    "Content": "Dark Theme for Windows",
+    "Description": "Enable/Disable Dark Mode.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleBingSearch": {
+    "Content": "Bing Search in Start Menu",
+    "Description": "If enable then includes web search results from Bing in your Start Menu search.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleNumLock": {
+    "Content": "NumLock on Startup",
+    "Description": "Toggle the Num Lock key state when your computer starts.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleVerboseLogon": {
+    "Content": "Verbose Messages During Logon",
+    "Description": "Show detailed messages during the login process for troubleshooting and diagnostics.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleSnapWindow": {
+    "Content": "Snap Window",
+    "Description": "If enabled you can align windows by dragging them. | Relogin Required",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleSnapFlyout": {
+    "Content": "Snap Assist Flyout",
+    "Description": "If enabled then Snap preview is disabled when maximize button is hovered.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleSnapSuggestion": {
+    "Content": "Snap Assist Suggestion",
+    "Description": "If enabled then you will get suggestions to snap other applications in the left over spaces.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleMouseAcceleration": {
+    "Content": "Mouse Acceleration",
+    "Description": "If Enabled then Cursor movement is affected by the speed of your physical mouse movements.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleStickyKeys": {
+    "Content": "Sticky Keys",
+    "Description": "If Enabled then Sticky Keys is activated - Sticky keys is an accessibility feature of some graphical user interfaces which assists users who have physical disabilities or help users reduce repetitive strain injury.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleHiddenFiles": {
+    "Content": "Show Hidden Files",
+    "Description": "If Enabled then Hidden Files will be shown.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleShowExt": {
+    "Content": "Show File Extensions",
+    "Description": "If enabled then File extensions (e.g., .txt, .jpg) are visible.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleTaskbarSearch": {
+    "Content": "Search Button in Taskbar",
+    "Description": "If Enabled Search Button will be on the taskbar.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleTaskView": {
+    "Content": "Task View Button in Taskbar",
+    "Description": "If Enabled then Task View Button in Taskbar will be shown.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleTaskbarWidgets": {
+    "Content": "Widgets Button in Taskbar",
+    "Description": "If Enabled then Widgets Button in Taskbar will be shown.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleTaskbarAlignment": {
+    "Content": "Center Taskbar Items",
+    "Description": "[Windows 11] If Enabled then the Taskbar Items will be shown on the Center, otherwise the Taskbar Items will be shown on the Left.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFToggleDetailedBSoD": {
+    "Content": "Detailed BSoD",
+    "Description": "If Enabled then you will see a detailed Blue Screen of Death (BSOD) with more information.",
+    "category": "Customize Preferences",
+    "Type": "Toggle"
+  },
+  "WPFchangedns": {
+    "Content": "DNS",
+    "category": "z__Advanced Tweaks - CAUTION",
+    "Type": "Combobox",
+    "ComboItems": "Default DHCP Google Cloudflare Cloudflare_Malware Cloudflare_Malware_Adult Open_DNS Quad9 AdGuard_Ads_Trackers AdGuard_Ads_Trackers_Malware_Adult"
+  },
+  "WPFAddUltPerf": {
+    "Content": "Add and Activate Ultimate Performance Profile",
+    "category": "Performance Plans",
+    "Type": "Button",
+    "ButtonWidth": "300"
+  },
+  "WPFRemoveUltPerf": {
+    "Content": "Remove Ultimate Performance Profile",
+    "category": "Performance Plans",
+    "Type": "Button",
+    "ButtonWidth": "300"
+  }
+}

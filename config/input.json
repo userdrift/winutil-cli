@@ -1,0 +1,162 @@
+{
+    "Input-WPFTweaksAH": {
+      "content": "Disable Activity History",
+      "description": "This erases recent docs, clipboard, and run history.",
+      "function": "Set-WPFTweaksAH"
+    },
+    "Input-WPFTweaksHiber": {
+      "content": "Disable Hibernation",
+      "description": "Hibernation is really meant for laptops as it saves what's in memory before turning the pc off. It really should never be used, but some people are lazy and rely on it. Don't be like Bob. Bob likes hibernation.",
+      "function": "Set-WPFTweaksHiber"
+    },
+    "Input-WPFTweaksLaptopHibernation": {
+      "content": "Set Hibernation as default (good for laptops)",
+      "description": "Most modern laptops have connected standby enabled which drains the battery, this sets hibernation as default which will not drain the battery. See issue https://github.com/ChrisTitusTech/winutil/issues/1399",
+      "function": "Set-WPFTweaksLaptopHibernation"
+    },
+    "Input-WPFTweaksHome": {
+      "content": "Disable Homegroup",
+      "description": "Disables HomeGroup - HomeGroup is a password-protected home networking service that lets you share your stuff with other PCs that are currently running and connected to your network.",
+      "function": "Set-WPFTweaksHome"
+    },
+    "Input-WPFTweaksLoc": {
+      "content": "Disable Location Tracking",
+      "description": "Disables Location Tracking...DUH!",
+      "function": "Set-WPFTweaksLoc"
+    },
+    "Input-WPFTweaksServices": {
+      "content": "Set Services to Manual",
+      "description": "Turns a bunch of system services to manual that don't need to be running all the time. This is pretty harmless as if the service is needed, it will simply start on demand.",
+      "function": "Set-WPFTweaksServices"
+    },
+    "Input-WPFTweaksEdgeDebloat": {
+      "content": "Debloat Edge",
+      "description": "Disables various telemetry options, popups, and other annoyances in Edge.",
+      "function": "Set-WPFTweaksEdgeDebloat"
+    },
+    "Input-WPFTweaksConsumerFeatures": {
+      "content": "Disable ConsumerFeatures",
+      "description": "Windows 10 will not automatically install any games, third-party apps, or application links from the Windows Store for the signed-in user. Some default Apps will be inaccessible (eg. Phone Link)",
+      "function": "Set-WPFTweaksConsumerFeatures"
+    },
+    "Input-WPFTweaksTele": {
+      "content": "Disable Telemetry",
+      "description": "Disables Microsoft Telemetry. Note: This will lock many Edge Browser settings. Microsoft spies heavily on you when using the Edge browser.",
+      "function": "Set-WPFTweaksTele"
+    },
+    "Input-WPFTweaksWifi": {
+      "content": "Disable Wifi-Sense",
+      "description": "Wifi Sense is a spying service that phones home all nearby scanned wifi networks and your current geo location.",
+      "function": "Set-WPFTweaksWifi"
+    },
+    "Input-WPFTweaksUTC": {
+      "content": "Set Time to UTC (Dual Boot)",
+      "description": "Essential for computers that are dual booting. Fixes the time sync with Linux Systems.",
+      "function": "Set-WPFTweaksUTC"
+    },
+    "Input-WPFTweaksRemoveHomeGallery": {
+      "content": "Remove Home and Gallery from explorer",
+      "description": "Removes the Home and Gallery from explorer and sets This PC as default",
+      "function": "Set-WPFTweaksRemoveHomeGallery"
+    },
+    "Input-WPFTweaksDisplay": {
+      "content": "Set Display for Performance",
+      "description": "Sets the system preferences to performance. You can do this manually with sysdm.cpl as well.",
+      "function": "Set-WPFTweaksDisplay"
+    },
+    "Input-WPFTweaksDeBloat": {
+      "content": "Remove ALL MS Store Apps - NOT RECOMMENDED",
+      "description": "Remove ALL Microsoft store apps other than the essentials to make winget work.",
+      "function": "Set-WPFTweaksDeBloat"
+    },
+    "Input-WPFTweaksRestorePoint": {
+      "content": "Create Restore Point",
+      "description": "Creates a restore point at runtime in case a revert is needed from WinUtil modifications",
+      "function": "Set-WPFTweaksRestorePoint"
+    },
+    "Input-WPFTweaksEndTaskOnTaskbar": {
+      "content": "Enable End Task With Right Click",
+      "description": "Enables option to end task when right clicking a program in the taskbar",
+      "function": "Set-WPFTweaksEndTaskOnTaskbar"
+    },
+    "Input-WPFTweaksPowershell7": {
+      "content": "Change Windows Terminal default: PowerShell 5 -> PowerShell 7",
+      "description": "This will edit the config file of the Windows Terminal replacing PowerShell 5 with PowerShell 7 and installing PS7 if necessary",
+      "function": "Set-WPFTweaksPowershell7"
+    },
+    "Input-WPFTweaksPowershell7Tele": {
+      "content": "Disable Powershell 7 Telemetry",
+      "description": "This will create an Environment Variable called 'POWERSHELL_TELEMETRY_OPTOUT' with a value of '1' which will tell Powershell 7 to not send Telemetry Data.",
+      "function": "Set-WPFTweaksPowershell7Tele"
+    },
+    "Input-WPFTweaksStorage": {
+      "content": "Disable Storage Sense",
+      "description": "Storage Sense deletes temp files automatically.",
+      "function": "Set-WPFTweaksStorage"
+    },
+    "Input-WPFTweaksRemoveEdge": {
+      "content": "Remove Microsoft Edge",
+      "description": "Removes MS Edge when it gets reinstalled by updates.",
+      "function": "Set-WPFTweaksRemoveEdge"
+    },
+    "Input-WPFTweaksRemoveCopilot": {
+      "content": "Disable Microsoft Copilot",
+      "description": "Disables MS Copilot AI built into Windows since 23H2.",
+      "function": "Set-WPFTweaksRemoveCopilot"
+    },
+    "Input-WPFTweaksDisableLMS1": {
+      "content": "Disable Intel MM (vPro LMS)",
+      "description": "Intel LMS service is always listening on all ports and could be a huge security risk. There is no need to run LMS on home machines and even in the Enterprise there are better solutions.",
+      "function": "Set-WPFTweaksDisableLMS1"
+    },
+    "Input-WPFTweaksRemoveOnedrive": {
+      "content": "Remove OneDrive",
+      "description": "Moves OneDrive files to Default Home Folders and Uninstalls it.",
+      "function": "Set-WPFTweaksRemoveOnedrive"
+    },
+    "Input-WPFTweaksDisableNotifications": {
+      "content": "Disable Notification Tray/Calendar",
+      "description": "Disables all Notifications INCLUDING Calendar",
+      "function": "Set-WPFTweaksDisableNotifications"
+    },
+    "Input-WPFTweaksRightClickMenu": {
+      "content": "Set Classic Right-Click Menu ",
+      "description": "Great Windows 11 tweak to bring back good context menus when right clicking things in explorer.",
+      "function": "Set-WPFTweaksRightClickMenu"
+    },
+    "Input-WPFTweaksDiskCleanup": {
+      "content": "Run Disk Cleanup",
+      "description": "Runs Disk Cleanup on Drive C: and removes old Windows Updates.",
+      "function": "Set-WPFTweaksDiskCleanup"
+    },
+    "Input-WPFTweaksDeleteTempFiles": {
+      "content": "Delete Temporary Files",
+      "description": "Erases TEMP Folders",
+      "function": "Set-WPFTweaksDeleteTempFiles"
+    },
+    "Input-WPFTweaksDVR": {
+      "content": "Disable GameDVR",
+      "description": "GameDVR is a Windows App that is a dependency for some Store Games. I've never met someone that likes it, but it's there for the XBOX crowd.",
+      "function": "Set-WPFTweaksDVR"
+    },
+    "Input-WPFTweaksTeredo": {
+      "content": "Disable Teredo",
+      "description": "Teredo network tunneling is a ipv6 feature that can cause additional latency.",
+      "function": "Set-WPFTweaksTeredo"
+    },
+    "Input-WPFTweaksDisableipsix": {
+      "content": "Disable IPv6",
+      "description": "Disables IPv6.",
+      "function": "Set-WPFTweaksDisableipsix"
+    },
+    "Input-WPFTweaksDisableBGapps": {
+      "content": "Disable Background Apps",
+      "description": "Disables all Microsoft Store apps from running in the background, which has to be done individually since Win11",
+      "function": "Set-WPFTweaksDisableBGapps"
+    },
+    "Input-WPFTweaksDisableFSO": {
+      "content": "Disable Fullscreen Optimizations",
+      "description": "Disables FSO in all applications. NOTE: This will disable Color Management in Exclusive Fullscreen",
+      "function": "Set-WPFTweaksDisableFSO"
+    }
+}
