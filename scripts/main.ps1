@@ -97,6 +97,6 @@ Get-ChildItem -Path "$PSScriptRoot\..\functions\public\" | ForEach-Object { . $_
 
    Invoke-WPFUltimatePerformance -State "Enable" (enable Ultimate Performance power scheme)
    Invoke-WPFUltimatePerformance -State "Disable" (disable Ultimate Performance power scheme)
-#>
 
-Invoke-WPFInstall
+   Invoke-WPFInstall (install a selected app)
+#>
