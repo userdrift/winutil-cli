@@ -1,6 +1,6 @@
 # Windows Utility CLI
 
-`winutil-cli` is  [winutil](https://github.com/ChrisTitusTech/winutil/) fork on a command line, and it adds a `-Build` switch that allows the user to build a script that will run all selected tweaks, and it also removes some features.
+`winutil-cli` is  [winutil](https://github.com/ChrisTitusTech/winutil/) fork on a command line, and it adds a `-Build` switch that allows the user to build a script that will run all selected tweaks, and it removes quite a bit features.
 
 ![screen-install](./docs/assets/Title-Screen.png)
 
