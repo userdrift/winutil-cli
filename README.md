@@ -249,6 +249,8 @@ Disables FSO in all applications. NOTE: This will disable Color Management in 
 
 ![screen-install](./docs/assets/main.png)
 
+## main.ps1
+
 ```powershell
 <#
 
