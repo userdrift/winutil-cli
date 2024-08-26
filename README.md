@@ -173,55 +173,83 @@ Disables FSO in all applications. NOTE: This will disable Color Management in 
 
 
 ## **Some other functions**
- 
-   Invoke-WinUtilDarkMode -DarkMoveEnabled $false (enable darkmode)
-   Invoke-WinUtilDarkMode -DarkMoveEnabled $true (disable darkmode)
-   Invoke-WinUtilBingSearch -Enabled $false (enables bing search)
-   Invoke-WinUtilBingSearch -Enabled $true (disable bing search)
-   Invoke-WinUtilNumLock -Enabled $false (enables num lock on startup)
-   Invoke-WinUtilNumLock -Enabled $true (disable num lock on startup)
-   Invoke-WinUtilVerboseLogon -Enabled $false (enables verbose log on messages)
-   Invoke-WinUtilVerboseLogon -Enabled $true (disable verbose log on messages)
-   Invoke-WinUtilSnapWindow -Enabled $false (enables Snapping Windows on startup)
-   Invoke-WinUtilSnapWindow -Enabled $true (disables Snapping Windows on startup)
-   Invoke-WinUtilSnapFlyout -Enabled $false (enables Snap Assist Flyout on startup)
-   Invoke-WinUtilSnapFlyout -Enabled $true (disables Snap Assist Flyout on startup)
-   Invoke-WinUtilSnapSuggestion -Enabled $false (enables Snap Assist Suggestions on startup)
-   Invoke-WinUtilSnapSuggestion -Enabled $true (disables Snap Assist Suggestions on startup)
-   Invoke-WinUtilMouseAcceleration -DarkMoveEnabled $MouseAccelerationEnabled $false (enables mouse acceleration)
-   Invoke-WinUtilMouseAcceleration -DarkMoveEnabled $MouseAccelerationEnabled $true (disables mouse acceleration)
-   Invoke-WinUtilStickyKeys -Enabled $false (enables Sticky Keys on startup)
-   Invoke-WinUtilStickyKeys -Enabled $true (disables Sticky Keys on startup)
-   Invoke-WinUtilHiddenFiles -Enabled $false (enables Hidden Files)
-   Invoke-WinUtilHiddenFiles -Enabled $true (disables Hidden Files)
-   Invoke-WinUtilShowExt -Enabled $false (enables Show file Extentions)
-   Invoke-WinUtilShowExt -Enabled $true (disables Show file Extentions)
-   Invoke-WinUtilTaskbarSearch -Enabled $false (enables Taskbar Search Button)
-   Invoke-WinUtilTaskbarSearch -Enabled $true (disables Taskbar Search Button)
-   Invoke-WinUtilTaskView -Enabled $false (enables Task View)
-   Invoke-WinUtilTaskView -Enabled $true (disables Task View)
-   Invoke-WinUtilTaskbarWidgets -Enabled $false (enables Taskbar Widgets)
-   Invoke-WinUtilTaskbarWidgets -Enabled $true (disables Taskbar Widgets)
-   Invoke-WinUtilTaskbarAlignment -Enabled $false (enables Left Taskbar Alignment)
-   Invoke-WinUtilTaskbarAlignment -Enabled $true (disables Left Taskbar Alignment)
-   Invoke-WinUtilDetailedBSoD -Enabled $false (enables Detailed BSoD)
-   Invoke-WinUtilDetailedBSoD -Enabled $true (disables Detailed BSoD)
-   Invoke-WinUtilDetailedBSoD -Enabled $false (enables Detailed BSoD)
-   Invoke-WinUtilDetailedBSoD -Enabled $true (disables Detailed BSoD)
-   Set-WinUtilDNS -DNSProvider "" (set a dns provider ex:Google, Cloudflare)
-   Invoke-WPFUpdatessecurity (recommended Defers feature updates for 365 days Defers quality updates for 4 days)
-   Invoke-WPFUpdatesdisable (Disables Windows Update)
-   Invoke-WPFUpdatesdefault (Resets Windows Update settings to default)
-   Invoke-WPFUltimatePerformance -State "Enable" (enable Ultimate Performance power scheme)
-   Invoke-WPFUltimatePerformance -State "Disable" (disable Ultimate Performance power scheme)
-   Invoke-WPFInstall (install a selected app)
 
-## Getting things working
+## Display Settings
+- Enable Dark Mode: `Invoke-WinUtilDarkMode -DarkMoveEnabled $false`
+- Disable Dark Mode: `Invoke-WinUtilDarkMode -DarkMoveEnabled $true`
+
+## Search Settings
+- Enable Bing Search: `Invoke-WinUtilBingSearch -Enabled $false`
+- Disable Bing Search: `Invoke-WinUtilBingSearch -Enabled $true`
+
+## Startup Settings
+- Enable NumLock on Startup: `Invoke-WinUtilNumLock -Enabled $false`
+- Disable NumLock on Startup: `Invoke-WinUtilNumLock -Enabled $true`
+
+## Logon Settings
+- Enable Verbose Logon Messages: `Invoke-WinUtilVerboseLogon -Enabled $false`
+- Disable Verbose Logon Messages: `Invoke-WinUtilVerboseLogon -Enabled $true`
+
+## Window Management
+- Enable Snapping Windows: `Invoke-WinUtilSnapWindow -Enabled $false`
+- Disable Snapping Windows: `Invoke-WinUtilSnapWindow -Enabled $true`
+- Enable Snap Assist Flyout: `Invoke-WinUtilSnapFlyout -Enabled $false`
+- Disable Snap Assist Flyout: `Invoke-WinUtilSnapFlyout -Enabled $true`
+- Enable Snap Assist Suggestions: `Invoke-WinUtilSnapSuggestion -Enabled $false`
+- Disable Snap Assist Suggestions: `Invoke-WinUtilSnapSuggestion -Enabled $true`
+
+## Mouse Settings
+- Enable Mouse Acceleration: `Invoke-WinUtilMouseAcceleration -DarkMoveEnabled $MouseAccelerationEnabled $false`
+- Disable Mouse Acceleration: `Invoke-WinUtilMouseAcceleration -DarkMoveEnabled $MouseAccelerationEnabled $true`
+
+## Accessibility
+- Enable Sticky Keys: `Invoke-WinUtilStickyKeys -Enabled $false`
+- Disable Sticky Keys: `Invoke-WinUtilStickyKeys -Enabled $true`
+
+## File Explorer Settings
+- Show Hidden Files: `Invoke-WinUtilHiddenFiles -Enabled $false`
+- Hide Hidden Files: `Invoke-WinUtilHiddenFiles -Enabled $true`
+- Show File Extensions: `Invoke-WinUtilShowExt -Enabled $false`
+- Hide File Extensions: `Invoke-WinUtilShowExt -Enabled $true`
+
+## Taskbar Settings
+- Show Taskbar Search Button: `Invoke-WinUtilTaskbarSearch -Enabled $false`
+- Hide Taskbar Search Button: `Invoke-WinUtilTaskbarSearch -Enabled $true`
+- Show Task View Button: `Invoke-WinUtilTaskView -Enabled $false`
+- Hide Task View Button: `Invoke-WinUtilTaskView -Enabled $true`
+- Show Taskbar Widgets: `Invoke-WinUtilTaskbarWidgets -Enabled $false`
+- Hide Taskbar Widgets: `Invoke-WinUtilTaskbarWidgets -Enabled $true`
+- Left Taskbar Alignment: `Invoke-WinUtilTaskbarAlignment -Enabled $false`
+- Center Taskbar Alignment: `Invoke-WinUtilTaskbarAlignment -Enabled $true`
+
+## System Settings
+- Enable Detailed BSoD: `Invoke-WinUtilDetailedBSoD -Enabled $false`
+- Disable Detailed BSoD: `Invoke-WinUtilDetailedBSoD -Enabled $true`
+
+## Network Settings
+- Set DNS Provider: `Set-WinUtilDNS -DNSProvider "ProviderName"` (e.g., Google, Cloudflare)
+
+## Windows Update Settings
+- Recommended Update Settings: `Invoke-WPFUpdatessecurity`
+- Disable Windows Update: `Invoke-WPFUpdatesdisable`
+- Reset Windows Update to Default: `Invoke-WPFUpdatesdefault`
+
+## Performance Settings
+- Enable Ultimate Performance Power Scheme: `Invoke-WPFUltimatePerformance -State "Enable"`
+- Disable Ultimate Performance Power Scheme: `Invoke-WPFUltimatePerformance -State "Disable"`
+
+## App Installation
+- Install Selected App: `Invoke-WPFInstall`
+
+
+# Getting things working
 
 ### add what ever functions you want to `script/main.ps1`
 
-main.ps1
-```
+
+![screen-install](./docs/assets/main.png)
+
+```powershell
 <#
 
 .NOTES
@@ -286,7 +314,5 @@ Get-ChildItem -Path "$PSScriptRoot\..\functions\public\" | ForEach-Object { . $_
 
 # $raw_ = Get-Content -Path $path_ -Raw | ConvertFrom-Json
 
-Set-WPFTweaksAH (Disables Activity History)
+Set-WPFTweaksAH # (Disables Activity History)
 ```
-
-![screen-install](./docs/assets/main.png)
