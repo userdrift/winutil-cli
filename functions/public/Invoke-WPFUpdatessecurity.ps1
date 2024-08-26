@@ -44,5 +44,4 @@ function Invoke-WPFUpdatessecurity {
         Write-Host "================================="
         Write-Host "-- Updates Set to Recommended ---"
         Write-Host "================================="
-        Write-Host "Recommended Update settings loaded"
 }

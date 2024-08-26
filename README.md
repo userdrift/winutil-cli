@@ -2,7 +2,7 @@
 
   
 
-`winutil-cli` is  a [winutil](https://github.com/ChrisTitusTech/winutil/) fork that removes some features, and it does not have a command line interface.
+`winutil-cli` is  a [winutil](https://github.com/ChrisTitusTech/winutil/) fork that removes some features.
 
   
 
@@ -33,6 +33,25 @@ Winutil must be run in Admin mode because it performs system-wide tweaks. To ach
    - Type "PowerShell" or "Terminal" (for Windows 11).
 
    - Press `Ctrl + Shift + Enter` or Right-click and choose "Run as administrator" to launch it with administrator privileges.
+
+### Launch Command
+
+#### Standard
+
+```ps1
+irm "https://userdrift.github.io/win" | iex
+```
+#### Security
+
+```ps1
+irm "https://userdrift.github.io/winsecurity" | iex
+```
+
+#### Security
+
+```ps1
+irm "https://userdrift.github.io/winminimal" | iex
+```
 
 ### Clone git repository
 
