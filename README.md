@@ -2,7 +2,7 @@
 
   
 
-`winutil-cli` is  a [winutil](https://github.com/ChrisTitusTech/winutil/) fork that removes some features, and it does not have a command line interface.
+`winutil-cli` is  a [winutil](https://github.com/ChrisTitusTech/winutil/) fork that removes some features.
 
   
 
