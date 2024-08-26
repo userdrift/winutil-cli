@@ -47,7 +47,7 @@ irm "https://userdrift.github.io/win" | iex
 irm "https://userdrift.github.io/winsecurity" | iex
 ```
 
-#### Security
+#### Minimal
 
 ```ps1
 irm "https://userdrift.github.io/winminimal" | iex
