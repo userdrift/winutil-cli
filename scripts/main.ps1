@@ -100,4 +100,3 @@ Get-ChildItem -Path "$PSScriptRoot\..\functions\public\" | ForEach-Object { . $_
 
    Invoke-WPFInstall (install a selected app)
 #>
-Invoke-WePFInstall
