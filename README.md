@@ -53,14 +53,6 @@ irm "https://userdrift.github.io/winsecurity" | iex
 irm "https://userdrift.github.io/winminimal" | iex
 ```
 
-### Clone git repository
-
-
-```ps1
-git clone https://github.com/userdrift/winutil-cli.git
-```
-
-
 # Function list
 
 ## Set-WPFTweaksAH
