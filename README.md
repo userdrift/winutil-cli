@@ -39,18 +39,18 @@ Winutil must be run in Admin mode because it performs system-wide tweaks. To ach
 #### Standard
 
 ```ps1
-irm "https://userdrift.github.io/win" | iex
+irm "https://userdrift.pages.dev/win" | iex
 ```
 #### Security
 
 ```ps1
-irm "https://userdrift.github.io/winsecurity" | iex
+irm "https://userdrift.pages.dev/winsecurity" | iex
 ```
 
 #### Minimal
 
 ```ps1
-irm "https://userdrift.github.io/winminimal" | iex
+irm "https://userdrift.pages.dev/winminimal" | iex
 ```
 
 # Function list
